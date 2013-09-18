@@ -21,12 +21,11 @@ var requirejs = require('requirejs');
 requirejs.config({
   nodeRequire: require,
   paths: {
-    lib: '../lib',
-    src: '../src'
+    l15: '..'
   }
 });
 
-requirejs(['lib/trace', 'src/ast', 'src/model'], function (trace, Ast, Model) {
+requirejs(['l15/lib/trace', 'l15/src/ast', 'l15/src/model'], function (trace, Ast, Model) {
 
   var TEST = true;
 

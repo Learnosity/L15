@@ -58,7 +58,7 @@
 
 "use strict";
 
-define(["lib/trace", "lib/assert", "src/ast"], function (trace, assert, Ast) {
+define(["l15/lib/trace", "l15/lib/assert", "l15/src/ast"], function (trace, assert, Ast) {
 
   var TEST = false;
 
